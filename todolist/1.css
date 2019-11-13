@@ -13,16 +13,17 @@ body{
 
 .container{
     width: 60%;
-    height: 200px;
+    height: 500px;
     background: lightblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 h1{
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .input{
@@ -76,3 +77,6 @@ li{
 
 
 
+.test{
+    text-decoration: line-through;
+}
