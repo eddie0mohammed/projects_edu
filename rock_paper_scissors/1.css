@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    background:pink;
+    margin: 100px auto;
+}
+
+.player1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.player1 .player1-score{
+    margin: 20px auto;
+}
+
+.mid-column{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.choice-one{
+    margin: 20px 0;
+}
+.choice-two{
+    margin: 20px 0;
+}
+
+.player2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.player2 .player2-score{
+    margin: 20px auto;
+}
+
+.outcome{
+    background: pink;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.outcome-results{
+    margin-top: 20px;
+}
